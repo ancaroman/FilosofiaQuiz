@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_text_size">15sp</dimen>
+    <dimen name="margin_space">15dp</dimen>
+    <dimen name="text_size_2">25sp</dimen>
+    <dimen name="text_size_1">30sp</dimen>
+    <dimen name="text_size_3">16sp</dimen>
+    <dimen name="margin_space_1">95dp</dimen>
+    <dimen name="my_padding">90dp</dimen>
+    <dimen name="left_right">50dp</dimen>
+    <dimen name="my_padding_2">15dp</dimen>
+    <dimen name="margin_top">150dp</dimen>
+    <dimen name="bottom">30dp</dimen>
+</resources>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:fillViewport="true"
+    tools:context="com.example.anca.filosofiaquiz.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_1" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q1a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ1"
+                android:text="@string/friedrich_nietzsche" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q1a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ1"
+                android:text="@string/hans_georg_gadamer" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q1a3"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ1"
+                android:text="@string/martin_heidegger" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q1a4"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ1"
+                android:text="@string/karl_marx" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="s@string/my_font"
+            android:text="@string/question_2" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q2a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ2"
+                android:text="@string/love_of_nature" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q2a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ2"
+                android:text="@string/love_of_wisdom" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q2a3"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ2"
+                android:text="@string/a_lover_is_wise" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q2a4"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ2"
+                android:text="@string/it_is_wise_to_love" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_3" />
+
+        <EditText
+            android:id="@+id/edit_text_q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_space"
+            android:hint="@string/type_your_response_here"
+            android:imeOptions="actionSend"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/my_text_size" />
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_4" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q4a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ4"
+                android:text="@string/introduction_to_metaphysics" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q4a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ4"
+                android:text="@string/being_and_time" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q4a3"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ4"
+                android:text="@string/black_notebooks" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q4a4"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ4"
+                android:text="@string/on_the_way_to_language" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_5" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q5a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ5"
+                android:text="@string/belief" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q5a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ5"
+                android:text="@string/art" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q5a3"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ5"
+                android:text="@string/existence" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q5a4"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ5"
+                android:text="@string/choice" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_6" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q6a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ6"
+                android:text="@string/hannah_arendt" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q6a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ6"
+                android:text="@string/mary_midgley" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q6a3"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ6"
+                android:text="@string/susan_haack" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q6a4"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ6"
+                android:text="@string/ayn_rand" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_7" />
+
+        <CheckBox
+            android:id="@+id/check_box_q7a1"
+            style="@style/CheckBoxStyle"
+            android:fontFamily="@string/my_font"
+            android:text="@string/imitation" />
+
+        <CheckBox
+            android:id="@+id/check_box_q7a2"
+            style="@style/CheckBoxStyle"
+            android:fontFamily="@string/my_font"
+            android:text="@string/representation" />
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_8" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q8a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ8"
+                android:text="@string/edmund_husserl" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q8a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ8"
+                android:text="@string/hans_georg_gadamer" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q8a3"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ8"
+                android:text="@string/s_ren_kierkegaard" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_9" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q9a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ9"
+                android:text="@string/_1666" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q9a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ9"
+                android:text="@string/_1663" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewAM2"
+            android:fontFamily="@string/my_font"
+            android:text="@string/question_10" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_q10a1"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ10"
+                android:text="@string/sigmund_freud" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q10a2"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ10"
+                android:text="@string/carl_jung" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q10a3"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:onClick="onClickQ10"
+                android:text="@string/alfred_adler" />
+
+            <RadioButton
+                android:id="@+id/radio_button_q10a4"
+                style="@style/RadioButtonStyle"
+                android:fontFamily="@string/my_font"
+                android:text="@string/carl_rogers" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:onClick="seeScore"
+                android:text="@string/submit"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
