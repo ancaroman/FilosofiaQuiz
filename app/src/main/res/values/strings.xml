@@ -41,7 +41,7 @@
     <string name="question_9">9. In which year was published \'Principia philosophiae cartesianae\' (Baruch Spinoza)?</string>
     <string name="_1666">1666</string>
     <string name="_1663">1663</string>
-    <string name="question_10">10. Who wrote \'The Psychopathology of Everyday Life\'</string>
+    <string name="question_10">10. Who wrote \'The Psychopathology of Everyday Life\'?</string>
     <string name="sigmund_freud">Sigmund Freud</string>
     <string name="carl_jung">Carl Jung</string>
     <string name="alfred_adler">Alfred Adler</string>
@@ -50,5 +50,6 @@
     <string name="hans_georg_gadamer">Hans-Georg Gadamer</string>
     <string name="submit">Submit</string>
     <string name="share">Share</string>
+    <string name="try_again">try again</string>
 
 </resources>

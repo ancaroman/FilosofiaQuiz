@@ -3,11 +3,11 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary theme color of the app (sets background color of app bar) -->
-        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimary">#009688</item>
         <!-- Darker variant for the status bar and contextual app bars -->
-        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorPrimaryDark">#00796B</item>
         <!-- Background color of buttons in the app -->
-        <item name="colorAccent">#90A4AE</item>
+        <item name="colorAccent">#80CBC4</item>
     </style>
 
 
@@ -17,7 +17,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:textSize">15sp</item>
         <item name="android:paddingLeft">15dp</item>
-
+        <item name="android:textStyle">bold</item>
     </style>
 
 
@@ -27,8 +27,10 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:textSize">18sp</item>
         <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
         <item name="android:paddingTop">20dp</item>
         <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <!-- Style for RadioGroups -->
@@ -46,7 +48,15 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginLeft">15dp</item>
         <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
-
+    <!-- Style for Submit & Reset Buttons -->
+    <style name="FinalButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dim_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_space</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

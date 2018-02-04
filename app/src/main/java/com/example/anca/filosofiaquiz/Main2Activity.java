@@ -16,11 +16,15 @@ import android.widget.Toast;
 public class Main2Activity extends AppCompatActivity {
 
     double finalScore = 0;
+    String playerName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
+        Intent nameIntent = getIntent();
+        playerName = nameIntent.getStringExtra("player_name");
     }
 
     public void onClickQ1(View view) {
@@ -162,8 +166,8 @@ public class Main2Activity extends AppCompatActivity {
      * This method is called when the submit button is clicked.
      */
     public void seeScore(View view) {
-        EditText nameText = (EditText) findViewById(R.id.name_field);
-        Editable user = nameText.getText();
+      // EditText nameText = (EditText) findViewById(R.id.name_field);
+      // Editable user = nameText.getText();
 
         /**
          * 1st question (RadioButton)
@@ -265,9 +269,20 @@ public class Main2Activity extends AppCompatActivity {
         /**
          * Displays score on a toast button
          */
-        String text = user + ", your score is " + finalScore + "/10 !";
+        String text = playerName + ", your score is " + finalScore + "/10 !";
         Toast.makeText(this, text, Toast.LENGTH_LONG).show();
+        Intent i = getIntent();
+        playerName = i.getStringExtra("player_name");
     }
+
+        public void restart(View view){
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        }
 }
+
+
+
 
 

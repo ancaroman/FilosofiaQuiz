@@ -11,4 +11,5 @@
     <dimen name="my_padding_2">15dp</dimen>
     <dimen name="margin_top">150dp</dimen>
     <dimen name="bottom">30dp</dimen>
+    <dimen name="dim_top">15dp</dimen>
 </resources>
